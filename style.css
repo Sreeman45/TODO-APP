@@ -1,0 +1,130 @@
+*{
+    box-sizing: border-box;
+    padding:0;
+    margin:0;
+
+}
+html,body{
+    display:flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items:center ;
+    height:100%;
+    background-color: green; 
+
+}
+.topbox{
+    display: flex;
+    justify-content: center;
+    align-items:flex-start;
+    height:20vh;
+    margin-top:10vh;
+}
+.letsgo{
+    justify-content:center;
+    align-self:flex-start;
+    font-size:2.5rem;
+    background-color: white;
+    padding:5px;
+
+}
+.box{
+    display:flex;
+    padding:15px;  
+}
+input{
+    width:clamp(400px,30vw,50vw);
+    height:40px;
+    border:none;
+    border-radius:10px;
+    margin-right: 3px;
+    margin-bottom:5px;
+    font-size: 24px;
+    border:2px  solid black;
+    
+
+
+}
+.button1{
+    font-size: 24px;
+    font-weight: bold;
+    padding:5px;
+    border-radius: 30%;
+    border:none;
+    cursor: pointer;
+
+}
+.button1:hover{
+    color:blue;
+    border-radius:0;
+
+}
+.tasks{
+    display:flex;
+    justify-content:flex-start;
+    align-items: center;
+    
+}
+.tasklist{
+    width:clamp(350px,30vw,50vw);
+    height:42px;
+    border:none;
+    border-radius:10px;
+    margin-right: 3px;
+    font-size: 20px;
+    background-color: white;
+    font-size: 22px;
+    margin-bottom: 2px;
+    align-content: center;
+    overflow: scroll;
+   
+}
+.tasklist::-webkit-scrollbar{
+    display:none;
+}
+.icons {
+    font-size: 30px;
+    padding: 3px;
+    background-color: white;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+}
+
+.icons:hover {
+    transform: translateY(-6px); 
+}
+
+.icons.icon2{
+    font-size:25px;
+    margin-left: 2px;
+}
+.icons.icon2:hover{
+    color:gold;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+ 
+    
+}
+.afterall{
+   font-size: 32px;
+   background-color: chocolate;
+   font-family:'Times New Roman', Times, serif;
+   margin:2px;
+   background-color: rgb(6, 6, 6);
+   padding:2px 4px;
+   border-radius:10%;
+   
+}
+.afterall::-webkit-scrollbar{
+    display:none;
+}
+.button{
+    padding:2px;
+    font-weight: bold;
+    font-size: 24px;
+}
